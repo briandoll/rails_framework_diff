@@ -1,3 +1,4 @@
+module RailsFrameworkDiff
 class Differ < Object
   
   def initialize(*args)
@@ -102,4 +103,5 @@ EOF
     puts u
   end
   
+end
 end

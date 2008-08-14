@@ -6,4 +6,4 @@ require File.expand_path(
     File.join(File.dirname(__FILE__), '..', 'lib', 'differ'))    
 
   
-Differ.new ARGV
+RailsFrameworkDiff::Differ.new ARGV
