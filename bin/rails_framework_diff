@@ -1,0 +1,9 @@
+#!/usr/bin/env ruby
+
+require File.expand_path(
+    File.join(File.dirname(__FILE__), '..', 'lib', 'rails_framework_diff'))
+require File.expand_path(
+    File.join(File.dirname(__FILE__), '..', 'lib', 'differ'))    
+
+  
+Differ.new ARGV
