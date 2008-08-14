@@ -45,6 +45,13 @@ Some framework generated files include some erb syntax which is parsed during ge
 does not currently deal with that case, so those lines will appear as different.  Examples include
 the rails config :session_key, etc.
 
+
+== USAGE:
+To use, make sure that the bin files of installed gems (this one, especially) are accessible via your $PATH
+> rails_framework_diff project_name [rails version]
+  project_name:  a relative path to the rails project to diff
+  rails version: define only to diff against a different version of rails than is specified by the project
+
 == LICENSE:
 
 (The MIT License)
