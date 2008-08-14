@@ -5,8 +5,7 @@ Rakefile
 bin/rails_framework_diff
 lib/rails_framework_diff.rb
 lib/differ.rb
-spec/rails_framework_diff_spec.rb
-spec/spec_helper.rb
+rails_framework_diff.gemspec
 tasks/ann.rake
 tasks/bones.rake
 tasks/gem.rake
